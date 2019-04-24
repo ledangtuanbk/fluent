@@ -8,3 +8,4 @@ services:
     ports:
       - "24224:24224"
       - "24224:24224/udp"
+    restart: on-failure
